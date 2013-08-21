@@ -1,0 +1,8 @@
+Database Implementation
+
+The class Database in Battleship handles the Database aspect of the program. It creates the database using the JDBC sqlite driver. 
+The DDL and DML is done in sqlite using the JDBC API. 
+The data is presented using the swing library in Java implemented as a JTABLE in a JFRAME. 
+The queries used to present the data are prewritten in the program although more queries can be added no interface has been implemented to take queries as input from the user.
+The idea is to present the database as a leaderboard used in a typical game setting.
+
